@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Your Profile</h1>
+        <div class="profile-table">
+            <h2>Profile Information</h2>
+            <table>
+                <tr>
+                    <th>fname</th>
+                    <th>lname</th>
+                    <th>email</th>
+                    <th>contact</th>
+                    <th>password</th>
+                </tr>
+                <tr>
+                    <td><%= userProfile.fname %></td>
+                    <td><%= userProfile.lname %></td>
+                    <td><%= userProfile.email %></td>
+                    <td><%= userProfile.contact %></td>
+                    <td><%= userProfile.password %></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
